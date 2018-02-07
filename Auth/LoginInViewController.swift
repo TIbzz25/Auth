@@ -34,7 +34,7 @@ class LoginInViewController: UIViewController {
                         self.present(vc!, animated: true, completion: nil)
 
             } else {
-                let alertController = UIAlertController(title: "Cant Sign In", message: "Try to reset your password or make a new account", preferredStyle: .alert)
+                let alertController = UIAlertController(title: "Cant Sign In", message: "Try to make a new account", preferredStyle: .alert)
                 let defualtAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 alertController.addAction(defualtAction)
 

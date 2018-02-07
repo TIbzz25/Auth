@@ -16,29 +16,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
 
     @IBAction func createAccountAction(_ sender: Any) {
-//        if emailTextField.text == "" {
-//            let alertController = UIAlertController(title: "Cant Sign Up", message: "Please enter your email and password", preferredStyle: .alert)
-//            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-//            alertController.addAction(defaultAction)
-//
-//            present(alertController, animated: true, completion: nil)
-//        } else {
-//
-//            Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
-//                            if error == nil {
-//                            print("Signed up")
-//                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "F")
-//                    self.present(vc!, animated: true, completion: nil)
-//
-//        } else {
-//            let alertController = UIAlertController(title: "Cant Sign In", message: error?.localizedDescription, preferredStyle: .alert)
-//            let defualtAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-//            alertController.addAction(defualtAction)
-//            self.present(alertController, animated: true, completion: nil)
-//                }
-//            }
-//        }
-//    }
+
         if emailTextField.text == "" {
             let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
 
